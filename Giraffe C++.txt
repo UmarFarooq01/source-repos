@@ -1,0 +1,534 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{ 
+
+   cout << "Hello world!" << endl;
+
+   return 0;
+}  
+
+// output Hello world! 
+
+int main()
+{
+	cout << "Hello world!" << endl;
+	cout << "Mike" << endl;
+	
+	return 0;
+}
+
+// output Hello world!
+	  Mike 
+
+int main()
+{
+	cout << "    / |" << endl;
+	cout << "   /  |" << endl;
+	cout << "  /   |" << endl;
+	cout << " /____|" << endl; 
+	
+	return 0;
+}
+
+// output
+
+	      / | 
+	     /  | 
+            /   | 
+	   /____|
+
+------------------------------------------------------
+
+include <iostream>
+
+namespace std;
+
+int main()
+{
+output << "There was once a man named John" << endl;
+output << "He was 35 years old" << endl;
+output << "He liked the name John" << endl;
+output << "But did not like being 35" << endl;
+
+returns 0;
+
+}
+
+//output 
+
+There was once a man named John 
+He was 35 years ols 
+He liked the name John
+But did not like being 35
+
+using namespace std;
+
+int main()
+{
+	string characterName = "John";  // only modify name here
+	int characterAge;
+	characterAge = 35;      // every instance of age variable
+cout << "There once was a man named" << charactername  << endl; 
+cout << "He was" << characterAge << "years old" << endl;
+cout << "He liked the name" << characterName << endl;
+cout << "But did not like being" << characterAge << endl;
+
+return 0;
+
+}
+
+// output 
+There was once a man named John 
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	String characterName = "Tom";
+	int characterAge; 
+	characterage = 50;
+cout << "There was once a man named" << charactername << endl;
+cout << "He was  " << characterAge << "years Old" << endl;
+
+characterName = "Mike" 
+cout << "He liked the name" << characterName << endl;
+cout << "He was" << characterAge << "Years Old" << endl;
+cout << "He did not like being" << characterAge << "Years Old"<< endl;
+
+
+return 0;
+}
+
+
+----------------------------------------------------------------------
+
+//Data Types    
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	char grade ='A';
+	string phrase ="Giraffe Academy";
+	int age = 50;        // -50
+	float = 5.98	    // 7 decimal places 
+	double gpa = 8.88; // 15 decimal places
+	bool isMale = true;
+	
+
+	return 0;
+
+}
+
+// variable is declared 
+// constant is output
+
+
+int main()
+{
+
+cout << "Giraffe Academy\n";
+cout << "Hello" << endl;
+
+return 0;
+
+}
+
+
+int main()
+{	
+	string phrase = "Giraffe Academy";
+	cout << phrase;
+
+	return 0;
+}
+
+
+// function is a block of code called that performs a specfic task four us.
+
+ 
+int main()
+{
+string phrase = "Giraffe Academy";
+cout << phrase.length();
+
+return 0;
+
+}
+
+// output 
+15 
+
+
+int main()
+{
+	
+	string phrase = "Giraffe Academy";
+	               //0123456 8910111213
+	cout << phrase[0];
+
+	return 0;
+}
+
+//Indexing String 
+// String starts at 0
+// output G 
+
+
+int main()
+{
+	string phrase = "Giraffe Academy";
+	cout.phrase[0] = 'B';
+	cout << phrase;
+
+	return 0;
+}
+
+
+int main()
+{
+	string phrase = "Giraffe Academy";
+
+	cout << phrase.find("Academy", 0);
+
+	return 0;
+}
+
+// output 8
+// Academy starts at index position 8
+
+cout << phrase.find("ffe", 0);
+
+// output 4 
+
+
+
+
+int main()
+{
+
+	string.phrase("Giraffe Academy");
+	string phrasesub;
+	cout << phrase.substr(8, 3);
+	cout << phrasesub;
+	
+	return 0;
+}
+
+
+----------------------------------------------------------------------
+//Working with numbers 
+
+
+#include <iostream>
+
+int main()
+{
+
+	cout << 5 * 7;
+	
+	return 0;
+}
+
+//output 
+35 
+
+
+cout << 10 % 3;
+
+// remainder 1 
+
+PEDMS
+
+cout << 4 + 5 * 10; 
+
+// * first 
+// (4 + 5) * 10; addition first 
+
+return 0;  
+
+int wnum = 5;
+double dnum = 5.5;
+
+wnum++;
+
+cout << wnum;
+
+return 0;
+
+}          
+
+
+################################
+
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+	int wnum = 5;
+	double dnum = 5.5;
+
+	cout << 5.5 + 9; 
+	cout << 10 / 3;
+	cout << 10.0 / 3.0;  
+	cout << pow(2, 5);           # include cmath  // 2 power^ 5
+	cout << pow(3, 3);           // 3 ^3
+	cout << sqrt(36);            // square root 
+	cout << round(4.3)           // round off 
+	cout << round(4.6)	     // round off
+	cout << ceil(4.1)            // round off to whole num
+	cout << floor(4.8) 	     // round back
+	cout << fmax(3, 10)          // bigger of 2 numbers 
+	cout << fmin(3, 10)          // smaller of 2 numbers
+
+	return 0;
+}
+
+//output 14.5 
+//output 3 (remainder 1) 
+//math with integers gives back integer value.
+//output 3.3333    
+//output 32 
+//output 27 
+//output 6
+//output 4
+//output 5 
+//output 5 
+//output 4 
+//output 10 
+//output 3 
+
+----------------------------------------------------------------------
+
+Getting Input 
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	int age;
+	cout << "Enter your age: ";
+	cin >> age;
+
+	cout << "You are" << age << "Years Old";
+
+	return 0;
+}
+
+
+int main()
+{
+ 	string name;
+	cout << "Enter your name: ";
+	getline(cin, name);              // get a line of input
+
+	cout << "Hello " << name;
+
+
+	return 0;
+}
+
+//output 
+
+Enter Your Name 
+enter Umar 
+Hello Umar
+
+----------------------------------------------------------------------
+
+Building a calculator 
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+	int num1, num2;
+	cout << "Enter first number: ";
+	cin >> num1;
+
+	cout << "Enter second number: ";
+	cin >> num2;
+
+	cout << num1 + num2;   
+
+
+
+
+
+	return 0;   
+}
+
+----------------------------------------------------------------------
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{ 
+ 	string color,pluralNoun,celebrity;
+	
+	cout << "enter a color: ";
+	getline(cin, color);
+	cout << "enter a plural noun: ";
+	getline(cin, pluralNoun);
+	cout << "enter a celebrity :";
+	getline(cin, celebrity); 
+	
+
+	cout << "Roses are " << color << endl;
+	cout << pluralNoun << " are blue" << endl:
+	cout << "I love " << celebrity << endl; 
+
+
+	return 0;
+}
+
+
+#####################################################################
+
+Arrays in C++
+
+using namespace std;
+
+int main()
+{
+
+	int luckynums[] = {4, 8, 15, 16, 23, 42};
+
+	cout << luckynums[0];
+
+
+	return 0;
+
+}
+
+
+	int luckynums[] = {4, 8, 15, 16, 23, 42};
+                           0   1  2   3   4   5
+	
+	luckynum[6] = 52;                  
+	cout << luckynum[6]; 
+
+	return 0;
+}
+
+{
+	int luckynums[20];
+
+	luckynums[0] = 100; 
+
+	cout << luckyNums[0];
+
+
+	return 0;
+}
+
+// output 100 
+
+
+#####################################################################
+
+Functions  1.20.49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
